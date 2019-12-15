@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Team } from './team';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
+  teams = Team;
+
 }
